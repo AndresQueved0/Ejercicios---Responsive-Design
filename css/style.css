@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    justify-content: center;
+}
+    .container-tittle {
+        justify-content: center;
+        align-items: center;
+    }
+
+.container-tittle h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}   
+.peli1 {
+    color: white;
+    font-size: 20px;
+    padding-top:110px;
+    margin: 30px;   
+}
+.peli1 p, h2, h3,img{
+    text-align: center;
+}
+.peli2 {
+    color: white;
+    font-size: 20px;
+    padding-top: 110px;
+    margin: 30px;
+}
+.peli3 {
+    color: white;
+    font-size: 20px;
+    padding-top: 110px;
+    margin: 28px;
+}
+.peli4 {
+    color: white;
+    font-size: 20px;
+    padding-top: 90px;
+    margin: 50px;
+}
+
+.peli1 img, .peli2 img, .peli3 img, .peli4 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container  {
+    display: flex;
+}
+
+.peli1, .peli2, .peli3, .peli4 {
+    width: 25%;
+}
+.container p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 30px;
+}
