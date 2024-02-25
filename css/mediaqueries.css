@@ -14,4 +14,7 @@
     .container-tittle{
         width: 30%;
     }
+    body{
+        justify-content: center;
+}
 }
