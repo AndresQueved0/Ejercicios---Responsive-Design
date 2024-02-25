@@ -1,0 +1,17 @@
+@media (width <= 599px) {
+    .container {
+        width: 20%;
+    }
+    .container-tittle{
+        width: 10%;
+    }
+}
+
+@media (600px <= width <= 1190px) {
+    .container {
+        width: 50%;
+    }
+    .container-tittle{
+        width: 30%;
+    }
+}
