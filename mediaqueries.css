@@ -1,15 +1,10 @@
 @media (width <= 600px) { /*Celulares*/
     .peli1 {
-        width: 100%;
-        display: inline-block;
-    }
-    .peli2 {
-        padding-top: 100px;
-        width: 100%;
+        width: 95%;
         display: inline-block;
     }
     .container {
-        width: 70%;
+        width: 100%;
         display: inline-block;
     }
     .container-tittle, h1{
@@ -19,44 +14,14 @@
 }
 
 @media (601px <= width <= 1199px) { /*Tablets*/
-    .peli2 {
-        padding-top: 100px;
-        width: 40%;
-        display: inline-block;
-        margin: 9px;
-    }
-    .peli2 p{
-        text-align: center;
-        margin: 10px;
-    }
-    .peli2 p, h3{
-        text-align: center;
-        margin: 3;
-    }
-    .peli2, h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
     .peli1 {
-        width: 40%;
+        width: 46.5%;
         display: inline-block;
-        margin: 0;
+        justify-content: center;
     }    
-    .peli1 p, h3{
-        text-align: center;
-        margin: 3;
-    }
     .container {
         width: 100%;
         display: inline-block;
-        text-align: center;
-        margin: 0;
-    }
-    .container-h2, h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
     }
     .container-tittle, h1{
         width: 100%;
@@ -65,12 +30,9 @@
 }
 
 @media (1200px <= width <= 1366px) { /*Laptops*/
-    .peli2 {
-        padding-top: 133px;
-        width: 100%;
-    }
     .peli1 {
         width: 100%;
+        padding-top: 0;
     }
     .container {
         width: 98%;
@@ -83,24 +45,11 @@
         align-items: center;
     }
 }
+
 @media (width >= 1367px) { /*Pantallas grandes*/
-    .container-h2, h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
-    .peli2 {
-        text-align: center;
-        padding-top: 100px;
-        width: 100%;
-        }
-    .peli2 h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
     .peli1 {
         width: 100%;
+        padding: 100px;
     }
     .container {
         width: 98%;
