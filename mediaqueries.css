@@ -17,13 +17,14 @@
     .peli1 {
         width: 46.5%;
         display: inline-block;
-        justify-content: center;
+        vertical-align: middle;
     }    
     .container {
         width: 100%;
-        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
     }
-    .container-tittle, h1{
+    .container-tittle{
         width: 100%;
     }
     
